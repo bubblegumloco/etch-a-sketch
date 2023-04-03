@@ -15,4 +15,4 @@ This is the fourth project of TOP.
 ![My Image](sketch.png)
 
 # Demo 
-🕹 [Etch - A - Sketch]([https://bubblegumloco.github.io/etch-a-sketch/])
+🕹 [Etch - A - Sketch](https://bubblegumloco.github.io/etch-a-sketch/)
