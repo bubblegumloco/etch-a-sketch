@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="sketch.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="title">
+      <div>MAGIC</div>
+      <h1>Etch A Sketch</h1>
+      <div>SCREEN</div>
+    </div>
+
+    <div id="middle-section">
+      <div id="container"></div>
+    </div>
+
+    <div id="frame">
+      <div class="circle" id="circle1">
+        <button class="sizeBtns" id="smallBtn">S</button>
+        <button class="sizeBtns" id="mediumBtn">M</button>
+        <button class="sizeBtns" id="largeBtn">L</button>
+      </div>
+      <div class="centerOfFrame">      
+        <div id="message1">Click To Erase!</div>
+        <button id="eraseLabel" onclick="reset()"></button>
+        <div id="message2">Click On The Palette For A Color Surprise</div>
+      </div>
+      <div class="circle" id="circle2">
+        <button class="color" id="red" onclick="options('red')"></button>
+        <button class="color" id="green" onclick="options('rgb(58, 218, 58)')"></button>
+        <button class="color" id="yellow" onclick="options('yellow')"></button>
+        <button class="color" id="pink" onclick="options('rgb(253, 81, 175)')"></button>
+        <button class="color" id="blue" onclick="options('rgb(91, 197, 242)')"></button>
+        <button class="color" id="purple" onclick="options('rgb(212, 89, 212)')"></button>
+        <button
+          class="color"
+          id="turquoise"
+          onclick="options('turquoise')"
+        ></button>
+        <button class="color" id="orange" onclick="options('rgb(255, 178, 34)')"></button>
+        <div class="color" id="palette" onclick="options('random')">🎨</button>
+      </div>
+    </div>
+    <script src="sketch.js"></script>
+  </body>
+</html>
