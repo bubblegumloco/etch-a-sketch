@@ -1,7 +1,7 @@
 # etch-a-sketch
 
 Draw like there's no tomorrow! This project was created to further practice DOM manipulation and create a website with moblie support. 
-I'm glad I got the opportunity to experience how js can be used to alter CSS attributes. 
+I'm glad I got the opportunity to experience how js can be used to alter not only HTML elements but CSS attributes. 
 This is the fourth project of TOP. 
 
 # What I Learned 
